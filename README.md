@@ -1,17 +1,22 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-light.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-light.svg" alt="Ankit Ghoghari profile banner" />
-  </picture>
-</p>
+<table>
+  <tr>
+    <td width="220" align="center">
+      <img src="https://avatars.githubusercontent.com/u/304899155?v=4" width="200" height="200" alt="Ankit Ghoghari profile photo" />
+    </td>
+    <td>
+      <h1>Hi, I'm Ankit Ghoghari 👋</h1>
+      <h3>Data Scientist • Machine Learning • Python • Analytics</h3>
+      <p>I build data-driven solutions, explore machine learning, and turn analysis into practical impact.</p>
+      <p><strong>Focus:</strong> Machine Learning · GenAI · Data Analytics · Python · Automation</p>
+      <p><strong>Education:</strong> B.Sc.</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Ankit-DataScientist-Git">@Ankit-DataScientist-Git</a></p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/actions/workflows/snake.yml">
     <img src="https://github.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/actions/workflows/snake.yml/badge.svg" alt="Profile automation status" />
-  </a>
-  <a href="https://github.com/Ankit-DataScientist-Git">
-    <img src="https://img.shields.io/badge/GitHub-Profile-0A101F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
   <a href="mailto:ankitghoghari1882@gmail.com">
     <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
@@ -55,7 +60,7 @@ An automated profile system built around GitHub Actions and Python:
 
 - Generates a theme-aware **contribution snake** every 12 hours and on demand.
 - Pulls GitHub profile and repository data through the **GitHub REST API**.
-- Builds self-contained **profile metric and contribution-snake SVG assets** stored in the main branch, so the profile does not depend on a separate generated branch at render time.
+- Builds self-contained **profile metric and contribution-snake SVG assets** stored in the main branch.
 - Uses GitHub's built-in workflow token for secure automation.
 
 [Workflow →](.github/workflows/snake.yml) · [Metrics generator →](.github/scripts/generate_profile_cards.py) · [Architecture →](docs/PROFILE_ARCHITECTURE.md)
@@ -86,7 +91,7 @@ An automated profile system built around GitHub Actions and Python:
 
 > **Reproducibility:** generated assets come from source scripts and an automated workflow.
 >
-> **Reliability:** profile metrics and contribution assets are published as static SVG files on `main`, avoiding broken links caused by a separate generated-branch dependency.
+> **Reliability:** profile metrics and contribution assets are published as static SVG files on `main`.
 >
 > **Security:** the workflow uses GitHub's built-in `GITHUB_TOKEN`; credentials are not hard-coded into the README.
 >
