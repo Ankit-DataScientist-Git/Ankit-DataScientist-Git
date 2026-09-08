@@ -13,7 +13,13 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -22,22 +28,24 @@ jobs:
             dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
             dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
 
-      - name: Checkout profile scripts
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
       - name: Generate profile metrics
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/generate_profile_cards.py
 
-      - name: Push generated assets to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "Update profile assets [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish generated profile assets to main
+        run: |
+          mkdir -p assets
+          cp dist/github-snake.svg assets/github-snake.svg
+          cp dist/github-snake-dark.svg assets/github-snake-dark.svg
+          cp dist/profile-stats.svg assets/profile-stats.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --cached --quiet; then
+            echo "No generated asset changes to commit."
+          else
+            git commit -m "chore: refresh profile assets [skip ci]"
+            git push origin HEAD:main
+          fi
