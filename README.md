@@ -55,9 +55,8 @@ An automated profile system built around GitHub Actions and Python:
 
 - Generates a theme-aware **contribution snake** every 12 hours and on demand.
 - Pulls GitHub profile and repository data through the **GitHub REST API**.
-- Builds a self-contained **profile metrics SVG** so the profile does not depend on a third-party stats API at render time.
-- Publishes generated assets to a dedicated `output` branch.
-- Keeps credentials outside source content by using the workflow's `GITHUB_TOKEN`.
+- Builds self-contained **profile metric and contribution-snake SVG assets** stored in the main branch, so the profile does not depend on a separate generated branch at render time.
+- Uses GitHub's built-in workflow token for secure automation.
 
 [Workflow →](.github/workflows/snake.yml) · [Metrics generator →](.github/scripts/generate_profile_cards.py) · [Architecture →](docs/PROFILE_ARCHITECTURE.md)
 
@@ -66,7 +65,7 @@ An automated profile system built around GitHub Actions and Python:
 ## 📊 GitHub Overview
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/output/profile-stats.svg" alt="GitHub profile metrics" />
+  <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/profile-stats.svg" alt="GitHub profile metrics" />
 </div>
 
 ---
@@ -75,9 +74,9 @@ An automated profile system built around GitHub Actions and Python:
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/output/github-snake.svg" />
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/github-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/github-snake.svg" />
   </picture>
 </div>
 
@@ -87,7 +86,7 @@ An automated profile system built around GitHub Actions and Python:
 
 > **Reproducibility:** generated assets come from source scripts and an automated workflow.
 >
-> **Reliability:** profile metrics are published as static SVG assets rather than requiring a live third-party stats call during page rendering.
+> **Reliability:** profile metrics and contribution assets are published as static SVG files on `main`, avoiding broken links caused by a separate generated-branch dependency.
 >
 > **Security:** the workflow uses GitHub's built-in `GITHUB_TOKEN`; credentials are not hard-coded into the README.
 >
