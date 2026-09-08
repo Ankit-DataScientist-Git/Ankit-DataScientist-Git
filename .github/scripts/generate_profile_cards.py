@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Generate reliable, self-contained GitHub profile metric cards.
-
-The cards are generated during GitHub Actions runs and published with the
-profile's existing output branch, so the README does not depend on a public
-third-party stats API at render time.
-"""
+"""Generate reliable, self-contained GitHub profile metric cards."""
 
 from __future__ import annotations
 
@@ -102,20 +97,23 @@ def main() -> None:
     bar_x, bar_y, bar_w = 28, 232, 685
     cursor = bar_x
     palette = ["#A78BFA", "#22D3EE", "#10B981", "#F59E0B", "#818CF8", "#64748B"]
-    for idx, (name, amount) in enumerate(top_languages):
+    for idx, (_, amount) in enumerate(top_languages):
         width = max(8, int(bar_w * amount / total_bytes))
         body.append(f'<rect x="{cursor}" y="{bar_y}" width="{width}" height="10" fill="{palette[idx % len(palette)]}"/>')
         cursor += width
 
-    legend_y = 274
-    for idx, (name, amount) in enumerate(top_languages):
-        share = (amount / total_bytes) * 100
-        col = idx % 3
-        row = idx // 3
-        x = 28 + col * 230
-        y = legend_y + row * 30
-        body.append(f'<circle cx="{x + 5}" cy="{y - 4}" r="5" fill="{palette[idx % len(palette)]}"/>')
-        body.append(text(x + 18, y, f"{name}  {share:.1f}%", 12, "#CBD5E1", 600))
+    if not top_languages:
+        body.append(text(28, 258, "Language distribution will appear after code repositories are added.", 12, "#94A3B8", 600))
+    else:
+        legend_y = 274
+        for idx, (name, amount) in enumerate(top_languages):
+            share = (amount / total_bytes) * 100
+            col = idx % 3
+            row = idx // 3
+            x = 28 + col * 230
+            y = legend_y + row * 30
+            body.append(f'<circle cx="{x + 5}" cy="{y - 4}" r="5" fill="{palette[idx % len(palette)]}"/>')
+            body.append(text(x + 18, y, f"{name}  {share:.1f}%", 12, "#CBD5E1", 600))
 
     (OUT / "profile-stats.svg").write_text(svg_shell(740, 340, "GitHub profile metrics", "\n  ".join(body)), encoding="utf-8")
 
