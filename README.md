@@ -1,13 +1,15 @@
-<div align="center">
-  <h1>Hi, I'm Ankit Ghoghari 👋</h1>
-  <h3>Data Scientist • Machine Learning • Python • Analytics</h3>
-  <p>
-    Building practical, data-driven solutions with a focus on machine learning,
-    analytics, automation, and clean engineering.
-  </p>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-light.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/profile-banner-light.svg" alt="Ankit Ghoghari profile banner" />
+  </picture>
+</p>
 
 <p align="center">
+  <a href="https://github.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/actions/workflows/snake.yml">
+    <img src="https://github.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/actions/workflows/snake.yml/badge.svg" alt="Profile automation status" />
+  </a>
   <a href="https://github.com/Ankit-DataScientist-Git">
     <img src="https://img.shields.io/badge/GitHub-Profile-0A101F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
@@ -39,7 +41,25 @@ I focus on turning data into useful products, insights, and decisions. My profil
   <img src="https://img.shields.io/badge/Data%20Science-0A101F?style=for-the-badge&logo=databricks&logoColor=10B981" alt="Data Science" />
   <img src="https://img.shields.io/badge/Git-0A101F?style=for-the-badge&logo=git&logoColor=F8FAFC" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-0A101F?style=for-the-badge&logo=githubactions&logoColor=22D3EE" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/REST%20API-0A101F?style=for-the-badge&logo=fastapi&logoColor=A78BFA" alt="REST API" />
+  <img src="https://img.shields.io/badge/SVG-0A101F?style=for-the-badge&logo=svg&logoColor=10B981" alt="SVG" />
 </p>
+
+---
+
+## 🚀 Featured Engineering Work
+
+### GitHub Profile Automation
+
+An automated profile system built around GitHub Actions and Python:
+
+- Generates a theme-aware **contribution snake** every 12 hours and on demand.
+- Pulls GitHub profile and repository data through the **GitHub REST API**.
+- Builds a self-contained **profile metrics SVG** so the profile does not depend on a third-party stats API at render time.
+- Publishes generated assets to a dedicated `output` branch.
+- Keeps credentials outside source content by using the workflow's `GITHUB_TOKEN`.
+
+[Workflow →](.github/workflows/snake.yml) · [Metrics generator →](.github/scripts/generate_profile_cards.py) · [Architecture →](docs/PROFILE_ARCHITECTURE.md)
 
 ---
 
@@ -63,16 +83,15 @@ I focus on turning data into useful products, insights, and decisions. My profil
 
 ---
 
-## 🏗️ Profile Engineering
+## 🏗️ Engineering Principles
 
-This profile is also a small example of automation and engineering practice:
-
-- **Automated assets:** GitHub Actions generates the contribution-snake and profile metrics on a 12-hour schedule.
-- **API-driven metrics:** profile metrics are generated from GitHub's API and published as static SVG assets.
-- **Theme-aware UI:** dark and light assets are selected with GitHub's `<picture>` element.
-- **Secure automation:** the publishing workflow uses GitHub's built-in `GITHUB_TOKEN`; no credential is hard-coded into the README.
-
-[View the automation workflow →](.github/workflows/snake.yml)  ·  [View the profile-card generator →](.github/scripts/generate_profile_cards.py)
+> **Reproducibility:** generated assets come from source scripts and an automated workflow.
+>
+> **Reliability:** profile metrics are published as static SVG assets rather than requiring a live third-party stats call during page rendering.
+>
+> **Security:** the workflow uses GitHub's built-in `GITHUB_TOKEN`; credentials are not hard-coded into the README.
+>
+> **Maintainability:** Dependabot is configured to keep GitHub Actions dependencies updated.
 
 ---
 
