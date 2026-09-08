@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 
-I am focused on turning data into useful products and decisions. My profile is centered around **Data Science, Machine Learning, Python, Analytics, and automation**.
+I focus on turning data into useful products, insights, and decisions. My profile is centered around **Data Science, Machine Learning, Python, Analytics, and automation**.
 
 ### What I focus on
 
@@ -49,10 +49,6 @@ I am focused on turning data into useful products and decisions. My profile is c
   <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/output/profile-stats.svg" alt="GitHub profile metrics" />
 </div>
 
-<div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Ankit-DataScientist-Git&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub streak" />
-</div>
-
 ---
 
 ## 🐍 Contribution Activity
@@ -67,13 +63,16 @@ I am focused on turning data into useful products and decisions. My profile is c
 
 ---
 
-## 🚀 Engineering Signals
+## 🏗️ Profile Engineering
 
-> **Automation:** GitHub Actions keeps profile assets updated automatically.
->
-> **Reliability:** Profile metrics are generated in the repository workflow and published as static SVG assets, avoiding dependence on a public third-party stats API at page-render time.
->
-> **Security:** Workflow publishing uses GitHub's built-in `GITHUB_TOKEN` with repository content write permission; credentials are not hard-coded in the README.
+This profile is also a small example of automation and engineering practice:
+
+- **Automated assets:** GitHub Actions generates the contribution-snake and profile metrics on a 12-hour schedule.
+- **API-driven metrics:** profile metrics are generated from GitHub's API and published as static SVG assets.
+- **Theme-aware UI:** dark and light assets are selected with GitHub's `<picture>` element.
+- **Secure automation:** the publishing workflow uses GitHub's built-in `GITHUB_TOKEN`; no credential is hard-coded into the README.
+
+[View the automation workflow →](.github/workflows/snake.yml)  ·  [View the profile-card generator →](.github/scripts/generate_profile_cards.py)
 
 ---
 
