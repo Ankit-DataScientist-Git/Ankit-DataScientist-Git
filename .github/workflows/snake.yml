@@ -34,7 +34,7 @@ jobs:
         run: python3 .github/scripts/generate_profile_cards.py
 
       - name: Push generated assets to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5.0.0
         with:
           target_branch: output
           build_dir: dist
