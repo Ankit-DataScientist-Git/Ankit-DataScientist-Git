@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/profile-banner-coded.svg" alt="Ankit Ghoghari professional GitHub profile banner" />
+  <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/profile-banner-final.svg" alt="Ankit Ghoghari professional GitHub profile banner" />
 </p>
 
 <p align="center">
