@@ -20,8 +20,8 @@
 <rect x="28" y="80" width="425" height="452" rx="20" fill="#0B1424" stroke="url(#edge)" stroke-width="2"/>
 <circle cx="231" cy="292" r="205" fill="url(#halo)"/>
 <rect x="42" y="95" width="388" height="420" rx="18" fill="#07101D"/>
-<image href="https://avatars.githubusercontent.com/u/304899155?v=4" x="42" y="95" width="388" height="420" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>
-<rect x="42" y="95" width="388" height="420" rx="18" fill="#07101D" opacity="0.18"/>
+<image href="https://avatars.githubusercontent.com/u/304899155?s=1000" x="42" y="95" width="388" height="420" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>
+<rect x="42" y="95" width="388" height="420" rx="18" fill="#07101D" opacity="0.16"/>
 <rect x="42" y="95" width="388" height="420" rx="18" fill="none" stroke="#22D3EE" stroke-opacity="0.65" stroke-width="2"/>
 <text x="62" y="125" fill="#22D3EE" font-family="monospace" font-size="13" font-weight="800">VISUAL.MAP</text>
 <text x="62" y="148" fill="#A5B4FC" font-family="monospace" font-size="11">DATA • MODEL • IMPACT</text>
