@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title>Ankit Ghoghari — Data Scientist GitHub profile banner</title>
+<desc>Professional terminal-style GitHub banner with portrait, Data Scientist role, B.Sc. education and technical focus.</desc>
+<rect width="1200" height="620" rx="20" fill="#0A1020"/>
+<rect x="1.5" y="1.5" width="1197" height="617" rx="18.5" fill="none" stroke="#273449" stroke-width="3"/>
+<rect x="16" y="16" width="1168" height="52" rx="14" fill="#0D1628" stroke="#26344B"/>
+<circle cx="40" cy="42" r="7" fill="#EF4444"/><circle cx="63" cy="42" r="7" fill="#F59E0B"/><circle cx="86" cy="42" r="7" fill="#10B981"/>
+<text x="112" y="48" fill="#8BD9EF" font-family="monospace" font-size="16" font-weight="700">ankit@github:~$</text>
+<text x="290" y="48" fill="#EEF2FF" font-family="monospace" font-size="16">profile.sh --professional</text>
+<rect x="1080" y="28" width="80" height="28" rx="14" fill="#101A2C" stroke="#22D3EE"/><circle cx="1096" cy="42" r="5" fill="#10B981"/>
+<text x="1108" y="47" fill="#A7F3D0" font-family="monospace" font-size="11" font-weight="700">LIVE</text>
+
+<rect x="28" y="82" width="425" height="500" rx="20" fill="#0B1424" stroke="#22D3EE" stroke-width="2"/>
+<rect x="39" y="93" width="403" height="474" rx="16" fill="#050B16"/>
+<rect x="58" y="120" width="330" height="370" rx="18" fill="#111827" stroke="#7C3AED" stroke-width="2"/>
+<circle cx="223" cy="260" r="118" fill="#071827" stroke="#22D3EE" stroke-width="3"/>
+<text x="223" y="245" text-anchor="middle" fill="#A78BFA" font-family="monospace" font-size="18" font-weight="800">YOUR</text>
+<text x="223" y="275" text-anchor="middle" fill="#22D3EE" font-family="monospace" font-size="24" font-weight="800">PORTRAIT</text>
+<text x="223" y="302" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="11">READY FOR PHOTO</text>
+<text x="58" y="124" fill="#22D3EE" font-family="monospace" font-size="13" font-weight="800">VISUAL.MAP</text>
+<text x="58" y="149" fill="#A5B4FC" font-family="monospace" font-size="11">DATA • MODEL • IMPACT</text>
+<rect x="58" y="505" width="360" height="42" rx="12" fill="#06101F" stroke="#7C3AED"/>
+<text x="76" y="531" fill="#22D3EE" font-family="monospace" font-size="13" font-weight="800">→ Turning data into opportunities</text>
+
+<rect x="475" y="82" width="697" height="500" rx="20" fill="#0B1424" stroke="#26344B"/>
+<text x="504" y="124" fill="#22D3EE" font-family="monospace" font-size="15" font-weight="800">SYSTEM.INFO</text>
+<text x="504" y="167" fill="#64748B" font-family="monospace" font-size="12">NAME</text><text x="655" y="167" fill="#F8FAFC" font-family="monospace" font-size="15">Ankit Ghoghari</text>
+<text x="504" y="201" fill="#64748B" font-family="monospace" font-size="12">ROLE</text><text x="655" y="201" fill="#F8FAFC" font-family="monospace" font-size="15">Data Scientist</text>
+<text x="504" y="235" fill="#64748B" font-family="monospace" font-size="12">EDUCATION</text><text x="655" y="235" fill="#F8FAFC" font-family="monospace" font-size="15">B.Sc.</text>
+<text x="504" y="269" fill="#64748B" font-family="monospace" font-size="12">FOCUS</text><text x="655" y="269" fill="#F8FAFC" font-family="monospace" font-size="15">Machine Learning • Data Analytics</text>
+<text x="504" y="303" fill="#64748B" font-family="monospace" font-size="12">INTERESTS</text><text x="655" y="303" fill="#F8FAFC" font-family="monospace" font-size="15">Python • GenAI • Applied AI</text>
+<text x="504" y="337" fill="#64748B" font-family="monospace" font-size="12">GITHUB</text><text x="655" y="337" fill="#22D3EE" font-family="monospace" font-size="15" font-weight="800">@Ankit-DataScientist-Git</text>
+<line x1="504" y1="359" x2="1142" y2="359" stroke="#26344B"/>
+<text x="504" y="390" fill="#22D3EE" font-family="sans-serif" font-size="12" font-weight="800">TOOLKIT</text>
+<g font-family="monospace" font-size="12" font-weight="700">
+<rect x="504" y="406" width="103" height="30" rx="15" fill="#0D1C2B" stroke="#22D3EE"/><text x="522" y="426" fill="#67E8F9">Python</text>
+<rect x="617" y="406" width="124" height="30" rx="15" fill="#0D1C2B" stroke="#7C3AED"/><text x="631" y="426" fill="#C4B5FD">ML</text>
+<rect x="751" y="406" width="108" height="30" rx="15" fill="#0D1C2B" stroke="#10B981"/><text x="770" y="426" fill="#6EE7B7">Analytics</text>
+<rect x="869" y="406" width="78" height="30" rx="15" fill="#0D1C2B" stroke="#22D3EE"/><text x="892" y="426" fill="#67E8F9">SQL</text>
+<rect x="957" y="406" width="92" height="30" rx="15" fill="#0D1C2B" stroke="#7C3AED"/><text x="973" y="426" fill="#C4B5FD">GenAI</text>
+<rect x="1059" y="406" width="83" height="30" rx="15" fill="#0D1C2B" stroke="#10B981"/><text x="1080" y="426" fill="#6EE7B7">GitHub</text>
+</g>
+<line x1="504" y1="458" x2="1142" y2="458" stroke="#26344B"/>
+<text x="504" y="490" fill="#A5B4FC" font-family="monospace" font-size="13">DATA</text><text x="590" y="490" fill="#F8FAFC" font-family="monospace" font-size="13">→ MODEL</text><text x="705" y="490" fill="#F8FAFC" font-family="monospace" font-size="13">→ INSIGHT</text><text x="835" y="490" fill="#F8FAFC" font-family="monospace" font-size="13">→ IMPACT</text>
+<text x="504" y="529" fill="#64748B" font-family="monospace" font-size="12">BUILD • LEARN • ANALYZE • REPEAT</text>
+<rect x="975" y="500" width="167" height="44" rx="12" fill="#071827" stroke="#22D3EE"/><text x="991" y="527" fill="#22D3EE" font-family="monospace" font-size="11" font-weight="800">OPEN TO OPPORTUNITIES</text>
+<text x="30" y="607" fill="#64748B" font-family="monospace" font-size="11">// Data Scientist • Problem Solver • Lifelong Learner</text>
+</svg>
