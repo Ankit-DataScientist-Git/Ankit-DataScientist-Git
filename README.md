@@ -1,18 +1,6 @@
-<table>
-  <tr>
-    <td width="220" align="center">
-      <img src="https://avatars.githubusercontent.com/u/304899155?v=4" width="200" height="200" alt="Ankit Ghoghari profile photo" />
-    </td>
-    <td>
-      <h1>Hi, I'm Ankit Ghoghari 👋</h1>
-      <h3>Data Scientist • Machine Learning • Python • Analytics</h3>
-      <p>I build data-driven solutions, explore machine learning, and turn analysis into practical impact.</p>
-      <p><strong>Focus:</strong> Machine Learning · GenAI · Data Analytics · Python · Automation</p>
-      <p><strong>Education:</strong> B.Sc.</p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/Ankit-DataScientist-Git">@Ankit-DataScientist-Git</a></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/main/assets/profile-banner-coded.svg" alt="Ankit Ghoghari professional GitHub profile banner" />
+</p>
 
 <p align="center">
   <a href="https://github.com/Ankit-DataScientist-Git/Ankit-DataScientist-Git/actions/workflows/snake.yml">
@@ -27,7 +15,7 @@
 
 ## 👨‍💻 About Me
 
-I focus on turning data into useful products, insights, and decisions. My profile is centered around **Data Science, Machine Learning, Python, Analytics, and automation**.
+I focus on turning data into useful products, insights, and decisions. My profile is centered around **Data Science, Machine Learning, Python, Analytics, GenAI, and automation**.
 
 ### What I focus on
 
@@ -44,10 +32,11 @@ I focus on turning data into useful products, insights, and decisions. My profil
   <img src="https://img.shields.io/badge/Python-0A101F?style=for-the-badge&logo=python&logoColor=22D3EE" alt="Python" />
   <img src="https://img.shields.io/badge/Machine%20Learning-0A101F?style=for-the-badge&logo=scikitlearn&logoColor=A78BFA" alt="Machine Learning" />
   <img src="https://img.shields.io/badge/Data%20Science-0A101F?style=for-the-badge&logo=databricks&logoColor=10B981" alt="Data Science" />
+  <img src="https://img.shields.io/badge/GenAI-0A101F?style=for-the-badge&logo=openai&logoColor=22D3EE" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/SQL-0A101F?style=for-the-badge&logo=postgresql&logoColor=A78BFA" alt="SQL" />
   <img src="https://img.shields.io/badge/Git-0A101F?style=for-the-badge&logo=git&logoColor=F8FAFC" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-0A101F?style=for-the-badge&logo=githubactions&logoColor=22D3EE" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/REST%20API-0A101F?style=for-the-badge&logo=fastapi&logoColor=A78BFA" alt="REST API" />
-  <img src="https://img.shields.io/badge/SVG-0A101F?style=for-the-badge&logo=svg&logoColor=10B981" alt="SVG" />
 </p>
 
 ---
@@ -101,7 +90,7 @@ An automated profile system built around GitHub Actions and Python:
 
 ## 🎯 Professional Focus
 
-**Data Science · Machine Learning · Analytics · Python · Automation · Applied AI**
+**Data Science · Machine Learning · Analytics · Python · GenAI · Automation · Applied AI**
 
 I value readable code, reproducible work, clear documentation, measurable results, and practical solutions.
 
