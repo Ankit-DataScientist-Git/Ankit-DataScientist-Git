@@ -20,6 +20,15 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Restore local profile portrait
+        run: |
+          if [[ -f assets/profile-portrait.b64 ]]; then
+            base64 --decode assets/profile-portrait.b64 > assets/profile-portrait.jpg
+            echo "Restored assets/profile-portrait.jpg"
+          else
+            echo "assets/profile-portrait.b64 not found; skipping portrait restore"
+          fi
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
