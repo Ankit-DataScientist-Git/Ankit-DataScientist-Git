@@ -12,7 +12,7 @@
 
 </p>
 <p>
-  <img width="100%" src="assets/profile-banner-latest.jpg"alt="GitHub" />
+  <img width="100%" src="C:/Users/Administrator/Downloads/ChatGPT Image Sep 10, 2026, 03_58_05 PM.png" alt="GitHub" />
 </p>
 
 ---
