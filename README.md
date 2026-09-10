@@ -12,7 +12,7 @@
 
 </p>
 <p>
-  <img src="assets/profile-banner-latest.jpg"alt="GitHub" />
+  <img width="100%" src="assets/profile-banner-latest.jpg"alt="GitHub" />
 </p>
 
 ---
