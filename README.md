@@ -9,6 +9,10 @@
   <a href="mailto:ankitghoghari1882@gmail.com">
     <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
   </a>
+
+</p>
+<p>
+  <img src="assets/profile-banner-latest.jpg"alt="GitHub" />
 </p>
 
 ---
@@ -105,5 +109,6 @@ I value readable code, reproducible work, clear documentation, measurable result
   &nbsp;&nbsp;
   <a href="https://github.com/Ankit-DataScientist-Git">
     <img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=A78BFA&labelColor=0A101F" alt="GitHub" />
+    
   </a>
 </div>
