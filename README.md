@@ -14,7 +14,9 @@
 <p>
   <img width="100%" src="assets/profile-banner-latest.jpg" alt="GitHub" />
 </p>
-
+<p>
+  <img width="100%" src="assets/profile-banner-coded.svg" alt="GitHub" />
+</p>
 ---
 
 ## 👨‍💻 About Me
